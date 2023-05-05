@@ -1,12 +1,20 @@
-si lave india 
+version 15.4
+no service pad
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+!
+hostname BALIC_Prabhadevi_M01_TATA
+!
+boot-start-marker
+boot-end-marker
+!
+!
+enable secret 5 $1$nX4m$VURd/2d4EhQKc79AryxGs1
+enable password 7 00071A150754
+!
+aaa new-model
+!
+!
+aaa authentication login default local~
 
-# testngfjjgk vinayak 
-checjge sagar
-
-
-sreekant sir
-
-
-prashant
-vakjPO 
-Panjak add success pankaj add done 
